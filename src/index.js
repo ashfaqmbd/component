@@ -5,7 +5,18 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <div><App/></div>,  
+  <div>
+    <h1>
+      Fruits
+    </h1>
+    <ul>
+      
+      <li>Banana</li>
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Water Mellon</li>
+    </ul>
+  </div>,  
   document.getElementById('root')
 );
 
